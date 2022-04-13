@@ -12,6 +12,6 @@ $(begin).on('click', function (e) {
   form.addClass('hidden');
     // displaying
     document.getElementById('info').style.display = 'block';
-    document.getElementById('moreInfo').style.display = 'block';
+    document.getElementById('projects').style.display = 'block';
 
 });

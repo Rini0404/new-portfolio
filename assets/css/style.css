@@ -1,6 +1,8 @@
 #form { 
   display:0;
 }
+/* change, using for tests
+ */
 
 #info {
   display: none;
@@ -9,6 +11,12 @@
   display: none;
 }
 
+@media only screen and (max-width: 600px)  {
+  #projects{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+  }
+}
 
 /* bg color */
  /* #374151; */

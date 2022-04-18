@@ -12,6 +12,7 @@ $(begin).on('click', function (e) {
   form.addClass('hidden');
     // displaying
     document.getElementById('info').style.display = 'block';
-    document.getElementById('projects').style.display = 'block';
+    // need grid for cards
+    document.getElementById('projects').style.display = 'grid';
 
 });

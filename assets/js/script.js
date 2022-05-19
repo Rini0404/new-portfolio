@@ -1,8 +1,6 @@
-console.log("ayo?")
+
 
 const begin = $("#begin")
-
-
 
 // remove load screen
 

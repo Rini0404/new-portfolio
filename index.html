@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.6/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Portfolio</title>
 </head>
 
@@ -15,16 +16,18 @@
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href = "index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li tabindex="0">
-            <a href = "aboutMe.html" class="justify-between">
+            <a href="aboutMe.html" class="justify-between">
               Contact Me
             </a>
-          <li><a href = "#projects">Projects</a></li>
-          <li><a href = "./WebDev.pdf">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="./WebDev.pdf">Resume</a></li>
 
         </ul>
       </div>
@@ -32,100 +35,257 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
-        <li><a href = "index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li tabindex="0">
-          <a href = "aboutMe.html">
+          <a href="aboutMe.html">
             Contact Me
-            </a>  
-        <li><a href = "#projects">Projects</a></li>
-        <li><a href = "./WebDev.pdf">Resume</a></li>
+          </a>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="./WebDev.pdf">Resume</a></li>
       </ul>
     </div>
     <div class="navbar-end">
-        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-          <div class="w-10 rounded-full">
-            <img src="./assets/img/IMG-2062.JPEG" />
-          </div>
-        </label>
+      <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+        <div class="w-10 rounded-full">
+          <img src="./assets/img/IMG-2062.JPEG" />
+        </div>
+      </label>
 
-      </div>
     </div>
   </div>
+  </div>
 
-  <div id = "form" class="hero min-h-screen form" style="background-image: url(./assets/img//unnamed.jpg);">
+  <div id="form" class="hero min-h-screen form" style="background-image: url(./assets/img//unnamed.jpg);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">Hello there!</h1>
-        <p class="mb-5">Hi! I am Rene Ortega, a Web Developer! Checkout my portofio here, click the button bellow and lets see my magic!</p>
-        <button id = "begin" class="btn btn-primary">Click To View My Story!</button>
+        <p class="mb-5">Hi! I am Rene Ortega, a Web Developer! Checkout my portofio here, click the button bellow and
+          lets see my magic!</p>
+        <button id="begin" class="btn btn-primary">Click To View My Story!</button>
       </div>
     </div>
   </div>
-  
-</div>
+
+  </div>
 
 
-<div id = "info" class="dark:bg-gray-900">
-  <div class="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:container">
+  <div id="info" class="dark:bg-gray-900">
+    <div
+      class="flex flex-col lg:flex-row items-stretch justify-between lg:px-0 px-6 lg:py-20 py-8 2xl:mx-auto 2xl:container">
       <div class="z-30 relative lg:w-1/2">
-          <div class="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-1/2 lg:h-full lg:flex justify-end items-center">
-              <div class="w-full lg:w-auto lg:-mr-32">
-                  <img src="./assets/img/IMG-2062.JPEG" alt="image of rini" class="w-full relative z-30 lg:pl-20 px-6 py-14" />
-              </div>
+        <div class="hidden dark:bg-gray-800 bg-gray-100 w-full lg:w-1/2 lg:h-full lg:flex justify-end items-center">
+          <div class="w-full lg:w-auto lg:-mr-32">
+            <img src="./assets/img/IMG-2062.JPEG" alt="image of rini"
+              class="w-full relative z-30 lg:pl-20 px-6 py-14" />
           </div>
+        </div>
       </div>
       <div class="bg-gray-100 dark:bg-gray-800 lg:w-1/2 lg:ml-12 lg:p-14 p-8 flex items-center">
-          <div>
-              <h1 class="dark:text-white md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">Web Developer</h1>
-              <p class="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">Hello! My name is Rene Ortega Jr. As of today, I can proudly say, "I found my passion"!
-                Before even considering becoming a Web Developer, I worked as a Construction Foreman/Quality Control specialist.
-                To be honest, I was unhappy.
-                After three hard years of my life, while I was a student studying structural engineering, I
-                stepped my foot down and discontinued that journey. I was born in Orlando, FL. Where I currently live.
-                I want to move out of state and start a new life elsewhere, preferably in Salt Lake City, Utah.
-                Mainly for the snow and cold temperatures and the tech industry in Utah. As a big believer in Family being a part of my life,
-                I spend with my loved ones and my girlfriend Natalie! My interests outside of work are my health passions and taking care/growing my plants and succulents.</p>
-          </div>
+        <div>
+          <h1
+            class="dark:text-white md:w-8/12 lg:w-10/12 xl:8/12 2xl:w-8/12 w-full xl:text-6xl sm:text-5xl text-4xl font-semibold text-gray-800 capitalize">
+            Web Developer</h1>
+          <p
+            class="dark:text-gray-300 md:w-9/12 lg:w-11/12 xl:w-10/12 2xl:9/12 text-base leading-normal text-gray-600 mt-5">
+            Hello! My name is Rene Ortega Jr. As of today, I can proudly say, "I found my passion"!
+            Before even considering becoming a Web Developer, I worked as a Construction Foreman/Quality Control
+            specialist.
+            To be honest, I was unhappy.
+            After three hard years of my life, while I was a student studying structural engineering, I
+            stepped my foot down and discontinued that journey. I was born in Orlando, FL. Where I currently live.
+            I want to move out of state and start a new life elsewhere, preferably in Salt Lake City, Utah.
+            Mainly for the snow and cold temperatures and the tech industry in Utah. As a big believer in Family being a
+            part of my life,
+            I spend with my loved ones and my girlfriend Natalie! My interests outside of work are my health passions
+            and taking care/growing my plants and succulents.</p>
+        </div>
       </div>
+    </div>
   </div>
+
+
+
+
+  <header>
+    <nav class="fixed w-full bg-white">
+        <div class="container m-auto px-6 md:px-12 lg:px-6">
+            <div class="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0">
+                <div class="w-full flex justify-between lg:w-auto">
+                    <a href="#" aria-label="logo">
+                        <img src="images/logo.svg" class="w-36" alt="tailus logo" width="144" height="48">
+                    </a>
+
+                    <button aria-label="humburger" id="hamburger" class="relative w-10 h-10 -mr-2 lg:hidden">
+                        <div aria-hidden="true" id="line" class="inset-0 w-6 h-0.5 m-auto rounded bg-gray-500 transtion duration-300"></div>
+                        <div aria-hidden="true" id="line2" class="inset-0 w-6 h-0.5 mt-2 m-auto rounded bg-gray-500 transtion duration-300"></div>
+                    </button>
+                </div>
+
+                <div hidden class="w-full bg-white md:space-y-0 md:p-0 md:flex-nowrap md:bg-transparent lg:w-auto lg:flex">
+                    <div class="block w-full lg:items-center lg:flex">
+                        <ul class="space-y-6 pb-6 tracking-wide font-medium text-gray-600 lg:pb-0 lg:pr-6 lg:items-center lg:flex lg:space-y-0">
+                            <li>
+                                <a href="#" class="block md:px-3">
+<span>Product</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block md:px-3">
+<span>Use Cases</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block md:px-3">
+<span>Integrations</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block md:px-3">
+<span>Pricing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="block md:px-3">
+<span>Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="border-t space-y-2 pt-2 lg:space-y-0 lg:space-x-2 lg:pt-0 lg:pl-2 lg:border-t-0 lg:border-l lg:items-center lg:flex">
+                            <li>
+                                <button type="button" title="Start buying" class="w-full py-3 px-6 rounded-md text-center transition active:bg-sky-200 focus:bg-sky-100 sm:w-max">
+<span class="block text-cyan-600 font-semibold">
+    Sign in
+</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button type="button" title="Start buying" class="w-full py-3 px-6 rounded-md text-center transition bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 focus:bg-sky-600 sm:w-max">
+<span class="block text-white font-semibold">
+                                        Try it for free
+                                    </span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="pt-32 pb-20 md:pt-40">
+    <div class="container m-auto px-6 md:px-12 lg:px-6">
+        <div class="lg:flex lg:items-center lg:gap-x-16">
+            <div class="space-y-8 lg:w-7/12">
+                <h1 class=" font-bold text-gray-900 text-4xl md:text-5xl">Run successful remote and hybrid teams</h1>
+                <p class="text-gray-600 lg:w-11/12">
+                    DailyBot takes chat and collaboration to the next level: daily standups, team check-ins, surveys, kudos, best companion bot for your virtual watercooler, 1:1 intros, motivation tracking and more.
+                </p>
+
+                <span class="block font-semibold">The best companion bot for your chat app.</span>
+
+                <div class="grid grid-cols-3 space-x-4 md:space-x-6 md:flex">
+                    <a aria-label="add to slack" href="#" class="p-4 border border-gray-200 rounded-md hover:border-cyan-400 hover:shadow-lg">
+                        <div class="flex justify-center space-x-4">
+                            <img class="w-6" src="images/slack.png" alt="slack logo" loading="lazy" width="128" height="128">
+                            <span class="hidden font-medium md:block">Add to Slack</span>
+                        </div>
+                    </a>    
+                    <a aria-label="add to chat" href="#" class="p-4 border border-gray-200 rounded-md hover:border-green-400 hover:shadow-lg">
+                        <div class="flex justify-center space-x-4">
+                            <img class="w-6" src="images/chat.png" alt="chat logo" loading="lazy" width="128" height="128">
+                            <span class="hidden font-medium md:block">Add to Google Chat</span>
+                        </div>
+                    </a>   
+                    <a aria-label="add to zoom" href="#" class="p-4 border border-gray-200 rounded-md hover:border-blue-400 hover:shadow-lg">
+                        <div class="flex justify-center space-x-4">
+                            <img class="w-6" src="images/zoom.png" alt="chat logo" loading="lazy" width="128" height="128">
+                            <span class="hidden font-medium md:block">Add to Zoom</span>
+                        </div>
+                    </a>    
+                </div>
+
+                <div>
+                    🔥🌟 
+                    <span>Other integrations :</span> 
+                    <a href="#" class="font-semibold text-gray-700">Discord,</a>
+                    <a href="#" class="font-semibold text-gray-700">Telegram</a>
+                </div>
+            </div>
+
+            <div hidden class="lg:block lg:w-5/12">
+                <img src="images/watch.svg" class="w-full" alt="wath illustration" loading="lazy" width="320" height="280">
+            </div>
+        </div>
+    </div>
 </div>
 
+<div class="pb-8">
+    <div class="container m-auto px-6 md:px-12 lg:px-6">
+        <div class="py-8 px-12 bg-cyan-50 rounded-2xl">
+            <span class="block text-center font-medium text-cyan-700">Technical Skills</span>
+            <div class="mt-8 flex justify-center flex-wrap items-center gap-4 md:gap-6 lg:gap-8">
+                <div class="flex items-center">
+                    <img class="w-36" src="./assets/img/javascript.png" alt="client logo" loading="lazy" width="584" height="122">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-36" src="./assets/img/css (1).png" alt="client logo" loading="lazy" width="584" height="122">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-36" src="./assets/img/html (2).png" alt="client logo" loading="lazy" width="584" height="122">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-36" src="./assets/img/nodejs.png" alt="client logo" loading="lazy" width="584" height="122">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-36" src="./assets/img/mysql.png " alt="client logo" loading="lazy" width="584" height="122">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-28" src="images/clients/grabyo.pg" alt="client logo" loading="lazy" width="400" height="219">
+                </div>
+                <div class="flex items-center">
+                    <img class="w-32" src="images/clients/lifegroups.png" alt="client logo" loading="lazy" width="400" height="219">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                                
 
-  
 
 
-
-
-<div id = "projects" class = "dark:bg-gray-900	grid justify-items-center center gap-x-8 gap-y-4 grid-cols-3 flex-wrap text-center pb-6 ">
+  <div id="projects"
+    class="dark:bg-gray-900	grid justify-items-center center gap-x-8 gap-y-4 grid-cols-3 flex-wrap text-center pb-6 ">
     <!-- added w to space evenly and not move because of data -->
-  <div class = "w-full ">
-    <card class="block overflow-hidden rounded-2xl">
-      <img class="object-cover w-full h-56" src="./assets/img/Capture.PNG" alt="" />
+    <div class="w-full ">
+      <card class="block overflow-hidden rounded-2xl">
+        <img class="object-cover w-full h-56" src="./assets/img/Capture.PNG" alt="" />
 
-      <div class="p-4 bg-neutral-900	">
-        <!-- <p class="text-xs text-gray-500"><a href="https://rini0404.github.io/"></a>Password-gen/</p> -->
-        <div class="btn-group flex justify-center">
-          <button class="btn btn-active"><a href = "https://rini0404.github.io/Password-gen"/>Live Link</a></button>
-          <button class="btn"><a href = "https://github.com/Rini0404/Password-gen">GitHub Repo</a></button>
+        <div class="p-4 bg-neutral-900	">
+          <!-- <p class="text-xs text-gray-500"><a href="https://rini0404.github.io/"></a>Password-gen/</p> -->
+          <div class="btn-group flex justify-center">
+            <button class="btn btn-active"><a href="https://rini0404.github.io/Password-gen" />Live Link</a></button>
+            <button class="btn"><a href="https://github.com/Rini0404/Password-gen">GitHub Repo</a></button>
+          </div>
+
+          <h5 class="text-sm text-white pt-6">JavaScript, HTML, CSS</h5>
+
+          <p class="mt-1 text-xs text-gray-500 pt-6">Firts Vanilla Js project!<br><br><br><br><br></p>
         </div>
 
-        <h5 class="text-sm text-white pt-6">JavaScript, HTML, CSS</h5>
-
-        <p class="mt-1 text-xs text-gray-500 pt-6">Firts Vanilla Js project!<br><br><br><br><br></p>
-      </div>
-  
-    </card>
-  </div>
-    <card  class="block overflow-hidden rounded-2xl">
-      <img class="object-cover w-full h-56" src="./assets/img/planner.gif"/>
+      </card>
+    </div>
+    <card class="block overflow-hidden rounded-2xl">
+      <img class="object-cover w-full h-56" src="./assets/img/planner.gif" />
 
       <div class="p-4 bg-neutral-900	">
         <!-- <a href="https://rini0404.github.io/planner/">Click Here to seeLive page!</a></div>
         <a href = 'https://github.com/Rini0404/planner'>Click Here to see GitHub Repo!</a> -->
         <div class="btn-group flex justify-center">
           <button class="btn btn-active"><a href="https://rini0404.github.io/planner/">Live Link</a></button>
-          <button class="btn"><a href = "https://github.com/Rini0404/planner">GitHub Repo</a></button>
+          <button class="btn"><a href="https://github.com/Rini0404/planner">GitHub Repo</a></button>
         </div>
         <h5 class="text-sm text-white pt-6">jQuery, HTML, CSS</h5>
 
@@ -134,131 +294,157 @@
           Its color responsive, if its 9:am, the color will be red representing the time.<br><br><br><br></p>
       </div>
     </card>
-    <card  class="block overflow-hidden rounded-2xl">
+    <card class="block overflow-hidden rounded-2xl">
       <img class="object-cover w-full h-56" src="./assets/img/sdsd.PNG" alt="" />
 
       <div class="p-4 bg-neutral-900	">
         <div class="btn-group flex justify-center">
           <button class="btn btn-active"><a href="https://rini0404.github.io/ThatGoodDirt/">Live Link</a></button>
-          <button class="btn"><a href = "https://github.com/Rini0404/ThatGoodDirt">GitHub Repo</a></button>
+          <button class="btn"><a href="https://github.com/Rini0404/ThatGoodDirt">GitHub Repo</a></button>
         </div>
 
         <h5 class="text-sm text-white pt-6">jQuery, JavaScript, HTML, CSS, ServerSide Api's. </h5>
 
-        <p class="mt-1 text-xs text-gray-500 pt-3">*Developed by Rene Ortega, Joseph Murray, Sarah Attar, Stephanie Charparro-Roldan
-          <br>Expected behavior Users should be able input there location to find a desired route. Users should be able to select specific characteristics they would like the trail to accommodate
-          With simple and easy instructions we made it possible for anyone to enjoy mother nature. Creating an interacive experice making it fun from start to finish.</p>
+        <p class="mt-1 text-xs text-gray-500 pt-3">*Developed by Rene Ortega, Joseph Murray, Sarah Attar, Stephanie
+          Charparro-Roldan
+          <br>Expected behavior Users should be able input there location to find a desired route. Users should be able
+          to select specific characteristics they would like the trail to accommodate
+          With simple and easy instructions we made it possible for anyone to enjoy mother nature. Creating an
+          interacive experice making it fun from start to finish.
+        </p>
       </div>
     </card>
   </div>
-</div>
+  </div>
 
-
-<div>
-  <footer class="text-center">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto space-y-6">
-        <div class="flex justify-center space-x-6">
-          <a
-            class="text-blue-500 hover:text-opacity-75"
-            href="https://twitter.com/ReneOrt81345106"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          >
-            <svg
-              class="w-8 h-8"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-              ></path>
-            </svg>
-          </a>
-  
-          <a
-            class="text-gray-900 hover:text-opacity-75"
-            href="https://github.com/Rini0404"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-          >
-            <svg
-              class="w-8 h-8"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </a>
-  
-          <a
-            class="text-pink-600 hover:text-opacity-75"
-            href="https://www.linkedin.com/in/rene-ortega-a29564196/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Dribbble"
-          >
-          <svg
-          class="w-6 h-8 text-blue-500 fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512">
-          <path
-            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-          ></path>
-        </svg>
-          </a>
+  <!-- Add a email form sender here -->
+   
+  <div class="container mx-auto pt-16">
+    <div class="lg:flex">
+        <div class="xl:w-2/5 lg:w-2/5 bg-indigo-700 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+            <div class="xl:w-5/6 xl:px-0 px-8 mx-auto">
+                <h1 class="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
+                <p class="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">Got a question about us? Are you interested in partnering with us? Have some suggestions or just want to say Hi? Just contact us. We are here to asset you.</p>
+                <div class="flex pb-4 items-center">
+                    <div aria-label="phone icon" role="img">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/contact_indigo-svg1.svg" alt="phone"/>
+                        
+                    </div>
+                    <p class="pl-4 text-white text-base">+1 (308) 321 321</p>
+                </div>
+                <div class="flex items-center">
+                    <div aria-label="email icon" role="img">
+                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/contact_indigo-svg2.svg" alt="email"/>
+                       
+                    </div>
+                    <p class="pl-4 text-white text-base">Info@alphas.com</p>
+                </div>
+                <p class="text-lg text-white pt-10 tracking-wide">
+                    545, Street 11, Block F
+                    <br />
+                    Dean Boulevard, Ohio
+                </p>
+                <div class=" pt-16" >
+                    <a href="javascript:void(0)" class="text-white font-bold tracking-wide underline focus:outline-none focus:ring-2 focus:ring-white ">View Job Openings</a>
+                </div>
+            </div>
         </div>
-  
-        <nav
-          class="relative flex flex-wrap justify-center gap-8 p-8 text-sm font-bold border-4 border-black rounded-xl"
-        >
-          <a
-            class="hover:opacity-75"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Made
-          </a>
-  
-          <a
-            class="hover:opacity-75"
-            
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By
-          </a>
-  
-          <a
-            class="hover:opacity-75"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Rene Ortega
-          </a>
-  
-          <a
-            class="hover:opacity-75"
-            
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            🍪🖤
-          </a>
-        </nav>
+        <div class="xl:w-3/5 lg:w-3/5 bg-gray-200 dark:bg-gray-600 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
+            <form id="contact" class="bg-white dark:bg-gray-800 py-4 px-8 rounded-tr rounded-br">
+                <h1 class="text-4xl text-gray-800 dark:text-white font-extrabold mb-6">Enter Details</h1>
+                <div class="block xl:flex w-full flex-wrap justify-between mb-6">
+                    <div class="w-2/4 max-w-xs mb-6 xl:mb-0">
+                        <div class="flex flex-col">
+                            <label for="full_name" class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Full Name</label>
+                            <input required id="full_name" name="full_name" type="text" class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="Full Name" aria-label="enter your full name input" />
+                        </div>
+                    </div>
+                    <div class="w-2/4 max-w-xs xl:flex xl:justify-end">
+                        <div class="flex flex-col">
+                            <label for="email" class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Email</label>
+                            <input required id="email" name="email" type="email" class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="example@email.com" aria-label="enter your email input" />
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full flex-wrap">
+                    <div class="w-2/4 max-w-xs">
+                        <div class="flex flex-col">
+                            <label for="phone" class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Phone</label>
+                            <input required id="phone" name="phone" type="tel" class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="+92-12-3456789" aria-label="enter your phone number input" />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full mt-6">
+                    <div class="flex flex-col">
+                        <label class="text-sm font-semibold text-gray-800 dark:text-white mb-2" for="message">Message</label>
+                        <textarea placeholder="" name="message" class="dark:bg-gray-900 dark:text-white dark:border-gray-700 border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700" rows="8" id="message" aria-label="enter your message input"></textarea>
+                    </div>
+                    <button type="submit" class="focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm leading-6 focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 
+  <div>
+    <footer class="text-center">
+      <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto space-y-6">
+          <div class="flex justify-center space-x-6">
+            <a class="text-blue-500 hover:text-opacity-75" href="https://twitter.com/ReneOrt81345106" target="_blank"
+              rel="noopener noreferrer" aria-label="Twitter">
+              <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                </path>
+              </svg>
+            </a>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./assets/js/script.js"></script>
+            <a class="text-gray-900 hover:text-opacity-75" href="https://github.com/Rini0404" target="_blank"
+              rel="noopener noreferrer" aria-label="GitHub">
+              <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </a>
+
+            <a class="text-pink-600 hover:text-opacity-75" href="https://www.linkedin.com/in/rene-ortega-a29564196/"
+              target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+              <svg class="w-6 h-8 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </div>
+
+          <nav
+            class="relative flex flex-wrap justify-center gap-8 p-8 text-sm font-bold border-4 border-black rounded-xl">
+            <a class="hover:opacity-75" target="_blank" rel="noopener noreferrer">
+              Made
+            </a>
+
+            <a class="hover:opacity-75" target="_blank" rel="noopener noreferrer">
+              By
+            </a>
+
+            <a class="hover:opacity-75" target="_blank" rel="noopener noreferrer">
+              Rene Ortega
+            </a>
+
+            <a class="hover:opacity-75" target="_blank" rel="noopener noreferrer">
+              🍪🖤
+            </a>
+          </nav>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

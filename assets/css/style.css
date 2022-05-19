@@ -1,14 +1,7 @@
-/* footer {position:sticky; 
-bottom: 0;
-z-index: 1000;}
- */
 
 #form { 
   display:0;
 }
-/* change, using for tests
- */
-
 #info {
   display: none;
 }
@@ -22,7 +15,3 @@ z-index: 1000;}
 
   }
 }
-
-
-/* bg color */
- /* #374151; */
